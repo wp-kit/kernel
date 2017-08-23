@@ -1,0 +1,15 @@
+{
+	"name": "wp-kit/routing",
+    "description": "A Themosis component that handles routing",
+    "keywords": ["wpkit", "themosis", "routing"],
+    "license": "MIT",
+	"autoload": {
+        "psr-4": {
+            "WPKit\\Routing\\": "src/Routing"
+        }
+    },
+    "config": {
+		"preferred-install": "dist"
+	},
+	"minimum-stability": "dev"
+}
