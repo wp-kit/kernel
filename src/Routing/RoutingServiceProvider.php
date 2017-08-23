@@ -24,6 +24,10 @@ class RoutingServiceProvider extends ServiceProvider {
 	        
         });
         
+        $this->app->singleton('router', function ($container) {
+            return new Router($container['events'], $container);
+        });
+        
 	}
 	
 }
