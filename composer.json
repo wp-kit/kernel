@@ -1,7 +1,7 @@
 {
 	"name": "wp-kit/routing",
-    "description": "A Themosis component that handles routing",
-    "keywords": ["wpkit", "themosis", "routing"],
+    "description": "A Themosis component that handles routing and allows headers to be sent",
+    "keywords": ["wp-kit", "themosis", "wordpress", "routing", "headers"],
     "license": "MIT",
 	"autoload": {
         "psr-4": {
