@@ -7,9 +7,5 @@
         "psr-4": {
             "WPKit\\Routing\\": "src/Routing"
         }
-    },
-    "config": {
-		"preferred-install": "dist"
-	},
-	"minimum-stability": "dev"
+    }
 }
