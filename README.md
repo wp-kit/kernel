@@ -4,7 +4,7 @@ This is a [```Themosis```](http://framework.themosis.com/) component that handle
 
 ```wp-kit/routing``` is fully compatible with ```Themosis```. 
 
-If you are using ```Themosis``` you'll notice it [does not send headers back](https://github.com/themosis/framework/blob/master/themosis.php#L296) to client which it is impossible to use some ```Middleware``` that relies send headers to the client such as [```illuminate/session```](https://github.com/illuminate/session). ```wp-kit/routing``` solves this issue by allowing headers to be sent back.
+If you are using ```Themosis``` you'll notice it [does not send any headers back](https://github.com/themosis/framework/blob/master/themosis.php#L296) to client which it is impossible to use some ```Middleware``` that relies send headers to the client such as [```illuminate/session```](https://github.com/illuminate/session). ```wp-kit/routing``` solves this issue by allowing headers to be sent back.
 
 ## Installation
 
