@@ -1,6 +1,6 @@
 # wp-kit/routing
 
-This is a [```Themosis```](http://framework.themosis.com/) component that handles routing and allows headers to be sent
+This is a [```Themosis```](http://framework.themosis.com/) component that handles routing and allows headers to be sent.
 
 ```wp-kit/routing``` is fully compatible with ```Themosis```. 
 
