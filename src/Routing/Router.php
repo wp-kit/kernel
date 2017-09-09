@@ -1,6 +1,6 @@
 <?php
 
-namespace WPKit\Routing;
+namespace WPKit\Kernel;
 
 use Themosis\Route\Router as BaseRouter;
 use Illuminate\Http\Request;
