@@ -1,10 +1,10 @@
-# wp-kit/routing
+# wp-kit/kernel
 
-This is a [```Themosis```](http://framework.themosis.com/) component that handles routing and allows headers to be sent.
+This is a [```Themosis```](http://framework.themosis.com/) component that handles routing by acting as a kernel and allows headers to be sent.
 
-```wp-kit/routing``` is fully compatible with ```Themosis```. 
+```wp-kit/kernel``` is fully compatible with ```Themosis```. 
 
-If you are using ```Themosis``` you'll notice it [does not send any headers back](https://github.com/themosis/framework/blob/master/themosis.php#L296) to client which it is impossible to use some ```Middleware``` that relies send headers to the client such as [```illuminate/session```](https://github.com/illuminate/session). ```wp-kit/routing``` solves this issue by allowing headers to be sent back.
+If you are using ```Themosis``` you'll notice it [does not send any headers back](https://github.com/themosis/framework/blob/master/themosis.php#L296) to client which it is impossible to use some ```Middleware``` that relies send headers to the client such as [```illuminate/session```](https://github.com/illuminate/session). ```wp-kit/kernel``` solves this issue by allowing headers to be sent back.
 
 ## Installation
 
@@ -27,7 +27,7 @@ Just register the service provider and facade in the providers config and theme 
 
 return [
     //
-    WPKit\Routing\RoutingServiceProvider::class,
+    WPKit\Kernel\KernelServiceProvider::class,
     //
 ];
 ```
@@ -56,4 +56,4 @@ PHP 5.6+
 
 ## License
 
-wp-kit/config is open-sourced software licensed under the MIT License.
+wp-kit/kernel is open-sourced software licensed under the MIT License.
