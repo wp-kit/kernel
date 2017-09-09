@@ -1,10 +1,10 @@
 <?php
 	
-namespace WPKit\Routing;
+namespace WPKit\Kernel;
 
 use Illuminate\Support\ServiceProvider;
 
-class RoutingServiceProvider extends ServiceProvider {
+class KernelServiceProvider extends ServiceProvider {
 	
 	/**
      * Register the service provider.
