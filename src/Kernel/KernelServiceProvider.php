@@ -3,6 +3,7 @@
 namespace WPKit\Kernel;
 
 use Illuminate\Support\ServiceProvider;
+use Illuminate\Http\Request;
 
 class KernelServiceProvider extends ServiceProvider {
 	
@@ -27,6 +28,12 @@ class KernelServiceProvider extends ServiceProvider {
         $this->app->singleton('router', function ($container) {
             return new Router($container['events'], $container);
         });
+	    
+	    $this->app->singleton(Request::class, function() {
+		
+		    return $this->app->request;
+		    
+	    });
         
 	}
 	
